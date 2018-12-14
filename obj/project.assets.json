@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\DAW1º  2doAÑO\\PROGRAMACION\\Programas_prueba\\Examen_Ev1\\Examen_Ev1.csproj",
+      "projectUniqueName": "X:\\Git\\Examen_Ev1.csproj",
       "projectName": "Examen_Ev1",
-      "projectPath": "X:\\DAW1º  2doAÑO\\PROGRAMACION\\Programas_prueba\\Examen_Ev1\\Examen_Ev1.csproj",
+      "projectPath": "X:\\Git\\Examen_Ev1.csproj",
       "packagesPath": "C:\\Users\\Alejandro\\.nuget\\packages\\",
-      "outputPath": "X:\\DAW1º  2doAÑO\\PROGRAMACION\\Programas_prueba\\Examen_Ev1\\obj\\",
+      "outputPath": "X:\\Git\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

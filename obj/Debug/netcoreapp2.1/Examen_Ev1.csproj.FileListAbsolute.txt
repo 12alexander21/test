@@ -1,0 +1,11 @@
+X:\Git\bin\Debug\netcoreapp2.1\Examen_Ev1.deps.json
+X:\Git\bin\Debug\netcoreapp2.1\Examen_Ev1.runtimeconfig.json
+X:\Git\bin\Debug\netcoreapp2.1\Examen_Ev1.runtimeconfig.dev.json
+X:\Git\bin\Debug\netcoreapp2.1\Examen_Ev1.dll
+X:\Git\bin\Debug\netcoreapp2.1\Examen_Ev1.pdb
+X:\Git\obj\Debug\netcoreapp2.1\Examen_Ev1.csprojAssemblyReference.cache
+X:\Git\obj\Debug\netcoreapp2.1\Examen_Ev1.csproj.CoreCompileInputs.cache
+X:\Git\obj\Debug\netcoreapp2.1\Examen_Ev1.AssemblyInfoInputs.cache
+X:\Git\obj\Debug\netcoreapp2.1\Examen_Ev1.AssemblyInfo.cs
+X:\Git\obj\Debug\netcoreapp2.1\Examen_Ev1.dll
+X:\Git\obj\Debug\netcoreapp2.1\Examen_Ev1.pdb
