@@ -296,42 +296,41 @@ namespace Examen_Ev1_AlejandroPlateroRebollo
 
         static void capicua()
         {
-            int num = 0;
+            int num = 1;
+            bool fin = false;
 
             Console.Clear();
             Console.Write("Introduzca un número positivo: ");
 
+            do
+            {
+                
             try
             {
-
                 num = int.Parse(Console.ReadLine());
+                fin = true;
             }
             catch (FormatException)
             {
                 Console.WriteLine("Introduzca un número");
-                Console.ReadKey();
-
             }
             catch (OverflowException)
             {
                 Console.WriteLine("Introduzca un número más pequeño");
-                Console.ReadKey();
             }
-            catch
+            catch (Exception)
             {
                 Console.WriteLine("Error genérico");
-                Thread.Sleep(1000);
             }
-
-
             if (num <= 0)
             {
                 Console.WriteLine("Introduzca un número positivo");
-                Console.ReadKey();
-                capicua();
+                fin = false; 
             }
-            else
-            {
+
+            }while(fin == false);
+           
+            
 
                 char[] numeros = num.ToString().ToCharArray();
 
@@ -390,7 +389,7 @@ namespace Examen_Ev1_AlejandroPlateroRebollo
                         Console.WriteLine("El número no es capicúo");
                     }
                 }
-            }
+            
             
             System.Console.WriteLine("\nPulse cualquier tecla para salir");
             Console.ReadKey();
