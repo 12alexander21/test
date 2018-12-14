@@ -6,60 +6,54 @@ namespace Ejercicio_27_Tema_4
     {
         static void Main(string[] args)
         {
-            int sueldo = 0;
-            bool correcto = false;
-            char continuar;
-
-            Console.Clear();
-            Console.Write("Introduzca un sueldo: ");
+            string continuar;
 
             do
             {
-                try
-                {
-                    sueldo = int.Parse(Console.ReadLine());
-                    correcto = true;
-                }
-                catch (FormatException)
-                {
-                    System.Console.Write("Introduzca un número: ");
-                }
-                catch (OverflowException)
-                {
-                    System.Console.Write("Introduzca un número más pequeño: ");
-                }
-                catch (Exception)
-                {
-                    System.Console.WriteLine("Error genérico");
-                }
-                if (sueldo < 0)
-                {
-                    System.Console.Write("Introduzca un número mayor o igual que 0: ");
-                    correcto = false;
-                }
+                double sueldo = 0;
+                bool correcto = false;
+                
+                Console.Clear();
+                Console.Write("Introduzca un sueldo: ");
 
-            }while(correcto == false);
+                do
+                {
+                    try
+                    {
+                        sueldo = int.Parse(Console.ReadLine());
+                        correcto = true;
+                    }
+                    catch (FormatException)
+                    {
+                        System.Console.Write("Introduzca un número: ");
+                    }
+                    catch (OverflowException)
+                    {
+                        System.Console.Write("Introduzca un número más pequeño: ");
+                    }
+                    catch (Exception)
+                    {
+                        System.Console.WriteLine("Error genérico");
+                    }
+                    if (sueldo < 0)
+                    {
+                        System.Console.Write("Introduzca un número mayor o igual que 0: ");
+                        correcto = false;
+                    }
 
-            aumento(ref sueldo);
+                }while(correcto == false);
 
-            System.Console.WriteLine("\nNuevo sueldo = {0}",sueldo);
+                aumento(ref sueldo);
 
-            System.Console.Write("¿Desea continuar S/N? ");
-            continuar = char.Parse(Console.ReadKey);
-            switch (continuar)
-            {
-                case 's':
-                case 'S':
-                    break;
-                case 'n':
-                case 'N':
-                    System.Environment(0);
-                    break;
-            }
+                System.Console.WriteLine("\nNuevo sueldo = {0}",sueldo);
+
+                pregunta(out continuar);
+                
+            }while(continuar != "N");    
 
         }
 
-        static void aumento(ref int sueldo)
+        static void aumento(ref double sueldo)
         {
             if(sueldo >= 0 && sueldo <= 900)
             {
@@ -75,8 +69,32 @@ namespace Ejercicio_27_Tema_4
             }
             else if(sueldo > 20000)
             {
-                sueldo = sueldo;
+                System.Console.WriteLine("El sueldo introducido es muy grande como para recibir un aumento");
             }
+        }
+
+        static void pregunta(out string continuar)
+        {
+            bool seguir = false;
+            System.Console.Write("¿Desea continuar S/N? ");
+                do
+                {
+                    continuar = Console.ReadLine().ToUpper(); 
+                                    
+                    switch (continuar)
+                    {
+                        case "N":
+                            System.Console.WriteLine("Adios");
+                            seguir = true;
+                            break;
+                        case "S":
+                            seguir = true;
+                            break;
+                        default:
+                            System.Console.Write("Introduzca S ó N: ");
+                            break;
+                    }
+                }while(seguir == false);
         }
     }
 }
