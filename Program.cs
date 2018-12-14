@@ -37,19 +37,19 @@ namespace Examen_Ev1_AlejandroPlateroRebollo
                 catch (FormatException) //Controlará que no se meta un número
                 {
                     Console.WriteLine("**ERROR** Introduzca un número");
-                    Thread.Sleep(900);
+                    Console.ReadKey();
                     menu_principal();
                 }
                 catch (OverflowException)   //Controlará que se meta un número muy grande
                 {
                     Console.WriteLine("**ERROR** Introduzca un número del 0 al 3");
-                    Thread.Sleep(900);
+                    Console.ReadKey();
                     menu_principal();
                 }
                 catch (Exception)   //Controlará cualquiera que no sean los dos anteriores
                 {
                     Console.WriteLine("**ERROR** Error genérico");
-                    Thread.Sleep(900);
+                    Console.ReadKey();
                     menu_principal();
                 }
 
@@ -156,26 +156,26 @@ namespace Examen_Ev1_AlejandroPlateroRebollo
             catch (FormatException) //Controlará que no se meta un número
             {
                 Console.WriteLine("**ERROR** Introduzca un número");
-                Thread.Sleep(900);
+                Console.ReadKey();
                 perfecto();
             }
             catch (OverflowException)   //Controlará que se meta un número muy grande
             {
                 Console.WriteLine("**ERROR** Introduzca un número del 0 al 3"); //--typo--
-                Thread.Sleep(900);
+                Console.ReadKey();
                 perfecto();
             }
             catch (Exception)   //Controlará cualquiera que no sean los dos anteriores
             {
                 Console.WriteLine("**ERROR** Error genérico");
-                Thread.Sleep(900);
+                Console.ReadKey();
                 perfecto();
             }
 
             //if(numero < 0)
             //{
             //    Console.WriteLine("Introduzca un numero mayor de 0");
-            //    Thread.Sleep(900);    :'(
+            //    Console.ReadKey();    :'(
             //    perfecto();
             //}
 
@@ -225,19 +225,19 @@ namespace Examen_Ev1_AlejandroPlateroRebollo
             catch (FormatException) //Controlará que no se meta un número
             {
                 Console.WriteLine("**ERROR** Introduzca un número");
-                Thread.Sleep(900);
+                Console.ReadKey();
                 fibonacci();
             }
             catch (OverflowException)   //Controlará que se meta un número muy grande
             {
                 Console.WriteLine("**ERROR** Introduzca un número del 0 al 3");//--TYPO--
-                Thread.Sleep(900);
+                Console.ReadKey();
                 fibonacci();
             }
             catch (Exception)   //Controlará cualquiera que no sean los dos anteriores
             {
                 Console.WriteLine("**ERROR** Error genérico");
-                Thread.Sleep(900);
+                Console.ReadKey();
                 fibonacci();
             }
 
@@ -309,13 +309,13 @@ namespace Examen_Ev1_AlejandroPlateroRebollo
             catch (FormatException)
             {
                 Console.WriteLine("Introduzca un número");
-                Thread.Sleep(900);
+                Console.ReadKey();
 
             }
             catch (OverflowException)
             {
                 Console.WriteLine("Introduzca un número más pequeño");
-                Thread.Sleep(900);
+                Console.ReadKey();
             }
             catch
             {
@@ -327,7 +327,7 @@ namespace Examen_Ev1_AlejandroPlateroRebollo
             if (num <= 0)
             {
                 Console.WriteLine("Introduzca un número positivo");
-                Thread.Sleep(900);
+                Console.ReadKey();
                 capicua();
             }
             else
@@ -338,7 +338,7 @@ namespace Examen_Ev1_AlejandroPlateroRebollo
                 if (numeros.Length < 0 || numeros.Length > 5)
                 {
                     Console.WriteLine("Introduzca un número de 5 cifras");
-                    Thread.Sleep(900);
+                    Console.ReadKey();
                     capicua();
                 }
                 else if (numeros.Length == 1)
