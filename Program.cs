@@ -276,7 +276,10 @@ namespace Examen_Ev1_AlejandroPlateroRebollo
         {
             int cont = 0;
 
-            for (int i = 2018; i <= 2501; i++)
+            Console.Clear();
+            System.Console.WriteLine("Años desde el 2018 al 2500: ");
+
+            for (int i = 2018; i <= 2500; i++)
 
                 if (i % 4 == 0 || i % 100 == 0 && i % 400 == 0)
                 {
@@ -304,7 +307,7 @@ namespace Examen_Ev1_AlejandroPlateroRebollo
 
             do
             {
-                
+
             try
             {
                 num = int.Parse(Console.ReadLine());
