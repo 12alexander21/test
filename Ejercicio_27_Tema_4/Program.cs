@@ -8,7 +8,7 @@ namespace Ejercicio_27_Tema_4
         {
             string continuar;
 
-            do
+            do //Controlará todo el main junto con la última función llamada
             {
                 double sueldo = 0;
                 bool correcto = false;
@@ -18,8 +18,8 @@ namespace Ejercicio_27_Tema_4
    ---Aumento de sueldo---");
                 Console.Write("Introduzca un sueldo: ");
 
-                do
-                {
+                do  //Controlará el try-catch
+                {   
                     try
                     {
                         sueldo = int.Parse(Console.ReadLine());
@@ -45,11 +45,11 @@ namespace Ejercicio_27_Tema_4
 
                 }while(correcto == false);
 
-                aumento(ref sueldo);
+                aumento(ref sueldo); //Va a la función aumento para aumentar el sueldo
 
-                System.Console.WriteLine("\nNuevo sueldo = {0}",sueldo);
+                System.Console.WriteLine("\nNuevo sueldo = {0}",sueldo); //Muestra el nuevo sueldo
 
-                pregunta(out continuar);
+                pregunta(out continuar); //Función que nos permite introducir o no un nuevo sueldo
                 
             }while(continuar != "N");    
 
@@ -77,7 +77,8 @@ namespace Ejercicio_27_Tema_4
 
         static void pregunta(out string continuar)
         {
-            bool seguir = false;
+            bool seguir = false;    //Nos permitira continuar si la letra introducida es S o N
+                                    //Si no el bucle continuará
             System.Console.Write("¿Desea continuar S/N? ");
                 do
                 {
@@ -86,10 +87,10 @@ namespace Ejercicio_27_Tema_4
                     switch (continuar)
                     {
                         case "S":
-                        case "N":
+                        case "N":   //Si la letra introducida es S o N la variable sera true y podremos continuar
                             seguir = true;
                             break;
-                        default:
+                        default:    //Si no, la variable seguirá siendo false hasta que se introduzca uno de los dos caracteres permitidos
                             System.Console.Write("Introduzca S ó N: ");
                             break;
                     }
