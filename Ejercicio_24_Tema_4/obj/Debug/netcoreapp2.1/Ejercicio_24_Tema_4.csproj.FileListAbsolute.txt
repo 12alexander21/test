@@ -1,0 +1,11 @@
+X:\Git\Ejercicio_24_Tema_4\bin\Debug\netcoreapp2.1\Ejercicio_24_Tema_4.deps.json
+X:\Git\Ejercicio_24_Tema_4\bin\Debug\netcoreapp2.1\Ejercicio_24_Tema_4.runtimeconfig.json
+X:\Git\Ejercicio_24_Tema_4\bin\Debug\netcoreapp2.1\Ejercicio_24_Tema_4.runtimeconfig.dev.json
+X:\Git\Ejercicio_24_Tema_4\bin\Debug\netcoreapp2.1\Ejercicio_24_Tema_4.dll
+X:\Git\Ejercicio_24_Tema_4\bin\Debug\netcoreapp2.1\Ejercicio_24_Tema_4.pdb
+X:\Git\Ejercicio_24_Tema_4\obj\Debug\netcoreapp2.1\Ejercicio_24_Tema_4.csprojAssemblyReference.cache
+X:\Git\Ejercicio_24_Tema_4\obj\Debug\netcoreapp2.1\Ejercicio_24_Tema_4.csproj.CoreCompileInputs.cache
+X:\Git\Ejercicio_24_Tema_4\obj\Debug\netcoreapp2.1\Ejercicio_24_Tema_4.AssemblyInfoInputs.cache
+X:\Git\Ejercicio_24_Tema_4\obj\Debug\netcoreapp2.1\Ejercicio_24_Tema_4.AssemblyInfo.cs
+X:\Git\Ejercicio_24_Tema_4\obj\Debug\netcoreapp2.1\Ejercicio_24_Tema_4.dll
+X:\Git\Ejercicio_24_Tema_4\obj\Debug\netcoreapp2.1\Ejercicio_24_Tema_4.pdb
