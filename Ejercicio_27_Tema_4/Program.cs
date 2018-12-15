@@ -14,6 +14,8 @@ namespace Ejercicio_27_Tema_4
                 bool correcto = false;
                 
                 Console.Clear();
+                System.Console.WriteLine(@"
+   ---Aumento de sueldo---");
                 Console.Write("Introduzca un sueldo: ");
 
                 do
@@ -83,11 +85,8 @@ namespace Ejercicio_27_Tema_4
                                     
                     switch (continuar)
                     {
-                        case "N":
-                            System.Console.WriteLine("Adios");
-                            seguir = true;
-                            break;
                         case "S":
+                        case "N":
                             seguir = true;
                             break;
                         default:
