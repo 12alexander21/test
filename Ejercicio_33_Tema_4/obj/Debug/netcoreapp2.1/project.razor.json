@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "x:\\Git\\Ejercicio_33_Tema_4\\Ejercicio_33_Tema_4.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
