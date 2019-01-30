@@ -13,3 +13,10 @@ X:\Git\Ejercicio_27_Tema_4\obj\Debug\netcoreapp2.1\Ejercicio_27_Tema_4.AssemblyI
 X:\Git\Ejercicio_27_Tema_4\obj\Debug\netcoreapp2.1\Ejercicio_27_Tema_4.AssemblyInfo.cs
 X:\Git\Ejercicio_27_Tema_4\obj\Debug\netcoreapp2.1\Ejercicio_27_Tema_4.dll
 X:\Git\Ejercicio_27_Tema_4\obj\Debug\netcoreapp2.1\Ejercicio_27_Tema_4.pdb
+F:\Git\Ejercicio_27_Tema_4\bin\Debug\netcoreapp2.1\Ejercicio_27_Tema_4.deps.json
+F:\Git\Ejercicio_27_Tema_4\bin\Debug\netcoreapp2.1\Ejercicio_27_Tema_4.runtimeconfig.json
+F:\Git\Ejercicio_27_Tema_4\bin\Debug\netcoreapp2.1\Ejercicio_27_Tema_4.runtimeconfig.dev.json
+F:\Git\Ejercicio_27_Tema_4\bin\Debug\netcoreapp2.1\Ejercicio_27_Tema_4.dll
+F:\Git\Ejercicio_27_Tema_4\bin\Debug\netcoreapp2.1\Ejercicio_27_Tema_4.pdb
+F:\Git\Ejercicio_27_Tema_4\obj\Debug\netcoreapp2.1\Ejercicio_27_Tema_4.dll
+F:\Git\Ejercicio_27_Tema_4\obj\Debug\netcoreapp2.1\Ejercicio_27_Tema_4.pdb

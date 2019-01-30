@@ -71,7 +71,8 @@ namespace Ejercicio_27_Tema_4
             }
             else if(sueldo > 20000)
             {
-                System.Console.WriteLine("El sueldo introducido es muy grande como para recibir un aumento");
+                throw new OverflowException();
+                //System.Console.WriteLine("El sueldo introducido es muy grande como para recibir un aumento");
             }
         }
 
